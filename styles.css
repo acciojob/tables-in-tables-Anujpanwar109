@@ -1,2 +1,36 @@
 
 /* Your CSS Code here. */
+ body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+
+    table {
+      width: 100%;
+      /* border-collapse: collapse; */
+      border: 2px solid black;
+      text-align: center;
+    }
+
+    th, td {
+      border: 1px solid black;
+      padding: 10px;
+    }
+
+    /* Nested table styles */
+    .nested-table {
+      width: 80%;
+      margin: 0 auto;
+      border: 1px solid black;
+    }
+
+    /* Link styles */
+    a {
+      color: purple;
+      text-decoration: underline;
+    }
+
+    .nested-table-4 {
+      background-color: black;
+      color: white;
+    }
